@@ -1,0 +1,16 @@
+package demo;
+
+public class BitwiseOperators {
+
+	public static void main(String[] args) {
+
+		int a =2,b=3;
+		System.out.println(a&b); // a= 0010 and b==0011 now AND operation is 0010
+		System.out.println(a|b); //a=0010 and b==0011 now OR operation is 0010
+		System.out.println(a^b); // a=0010 and b==0011 now the XOR operation of this is   0001
+		System.out.println(~(a));// for any integer n the bitwise complement is -(n+1)
+		System.out.println(a>>2);// 
+		System.out.println(a<<2);//
+	}
+
+}
